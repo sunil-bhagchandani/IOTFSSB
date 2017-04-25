@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOTFSSB
+  host: IOTFSSB
+  disk_quota: 1024M
+  services:
+  - IOTFSSB-ibm-iot-for-electronics
+  - IOTFSSB-iotf-service
